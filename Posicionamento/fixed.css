@@ -1,0 +1,65 @@
+.janela1{
+
+    background-color:black;
+    border-radius: 15px;
+    position: fixed; /* stick para posicionar ate o final do elemento. fixed passa do final do elemento e continua*/
+    width: 20%;
+    height: 20px;
+    top: 0px;
+    right: 0px;
+    color: red;
+
+    
+}
+
+.janela2{
+
+    background-color: yellow;
+    border-radius: 15px;
+
+}
+.janela3{
+   
+    background-color: blue;
+    border-radius: 15px;
+  
+}
+html, body, h1 {
+    margin:0;
+    padding:0;
+}
+html{
+    background-image:url("https://img.freepik.com/vetores-gratis/fundo-branco-abstrato_23-2148808256.jpg?w=2000");
+}
+article, aside, section, header, footer, nav{
+    display: block;
+}
+main{
+    width: 660px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    box-shadow: 0 0 10px #666;
+    margin:10px auto;
+    padding:10px ;
+    height: 3000px;
+    /*background-image: url("https://pbs.twimg.com/profile_images/1531810783117594626/ljZzGm4v_400x400.jpg");*/
+}
+#principal{
+    background-color: white;
+    border: solid 1px dotted red;
+    margin-top: 20px;
+    height: 2850px;
+    
+}
+section{
+    height: 100px ;
+    width: 100px;
+    padding: 10px;
+}
+h1, p{
+    color: red;
+}
+a{
+    color: red;
+}
